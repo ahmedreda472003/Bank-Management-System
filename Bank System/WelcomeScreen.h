@@ -23,7 +23,7 @@ class WelcomeScreen
             cout << "Exit\n";
             Console::yellow();
             cout << "---------------------------\n"
-                << "[3] Exit\n\n";
+                << "[2] Exit\n\n";
 
         }
 
@@ -45,7 +45,7 @@ class WelcomeScreen
                 return 1;
                 break;
 
-            case 3:
+            case 2:
                 return -1;
                 break;
 
