@@ -122,7 +122,7 @@ Each user logs in using:
 
 
 
-## 🚀 Getting Started
+## 🚀 How to Run
 
 1. Clone the repository.
 2. Open the solution in Visual Studio.
