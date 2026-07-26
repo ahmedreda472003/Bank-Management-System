@@ -152,12 +152,7 @@ public:
 		}
 		case 3:
 		{
-			cout << "\nEnter the amount: ";
 			int  accountId;
-			Console::white();
-			cin >> amount;
-			cin.ignore();
-			Console::yellow();
 
 			cout << "\nEnter the account ID you want to transfer to: ";
 
@@ -170,6 +165,14 @@ public:
 
 			if (target != nullptr)
 			{
+
+				cout << "\nEnter the amount: ";
+				Console::white();
+				cin >> amount;
+				cin.ignore();
+				Console::yellow();
+
+
 				if (client->transferTo(amount, *target)) {
 
 					Console::success("Transfer completed successfully. \n");
@@ -200,7 +203,6 @@ public:
 		   cin >> choice;
 		   cin.ignore();
 		   Console::yellow();
-		   cin.ignore();
 
 		   switch (choice) {
 

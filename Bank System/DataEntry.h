@@ -244,8 +244,8 @@ public:
 		int choice;
 		Console::white();
 		cin >> choice;
-		Console::yellow();
 		cin.ignore();
+		Console::yellow();
 
 		switch (choice) {
 
