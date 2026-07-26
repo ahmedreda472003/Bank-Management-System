@@ -5,55 +5,12 @@ class Screens
 {
 public:
    
-	static void bankName() {
-        Console::white();
-         cout << R"(
-
-
-
-              	                                                         
-              @@     @@    @@@@@@    @@@@@@@@   @@@@@@      @@@@@@@     @@@     @@     @@@@@@       @@            
-              @@@    @@   @@    @@      @@        @@       @@     @@    @@@     @@    @@    @@      @@             
-              @@ @@  @@   @@@@@@@@      @@        @@       @@     @@    @@ @@   @@    @@@@@@@@      @@            
-              @@  @@ @@   @@    @@      @@        @@       @@     @@    @@  @@  @@    @@    @@      @@            
-              @@   @@@@   @@    @@      @@      @@@@@@      @@@@@@@     @@    @@@@    @@    @@      @@@@@@@
- 
-)";
-         Console::lightblue();
-         cout << R"(
-                           
-                      @@@@@@      @@@@@@@      @@   @@      @@   @@           @@@@@@@     @@@@@@@         
-                      @@   @@     @@   @@      @@@  @@      @@  @@           @@     @@    @@         
-                      @@@@@@@     @@@@@@@      @@ @ @@      @@ @@            @@     @@    @@@@@@@   
-                      @@   @@     @@   @@      @@  @@@      @@  @@           @@     @@    @@     
-                      @@@@@@      @@   @@      @@   @@      @@   @@           @@@@@@@     @@    
-)";
-       
-     Console::white();
-        cout << R"( 
-                                                                               
-                                 @@@@@@@@     @@@@@@     @@ @@     @@@@@@@     @@@@@@@
-                                 @@          @@          @@ @@     @@   @@       @@
-                                 @@@@@@      @@  @@@      @@@      @@@@@@@       @@
-                                 @@          @@   @@       @       @@   @@       @@          
-                                 @@@@@@@@    @@@@@@@       @       @@@@@@@       @@
-                                                           
-
-
-
-
-)";
-        std::this_thread::sleep_for(std::chrono::seconds(2));
-        Console::yellow();
- 
-	}
- 
-
 	static void welcome() {
         Console::lightblue();
 		
         cout << R"( 
          
+
 
 
 
@@ -74,10 +31,19 @@ Console::white();
                                              @@        @@    @@
                                              @@         @@@@@@
 )";
-Console::lightblue();
-		
+        Console::lightblue();
         cout << R"( 
 
+                               @@@@@@   @@     @@    @@@@@      @@@@@@@    @@@@@@@
+                              @@        @@@   @@@   @@   @@     @@    @@     @@
+                              @@@@@@    @@ @ @ @@   @@@@@@@     @@@@@@@      @@
+                                   @@   @@  @  @@   @@   @@     @@   @@      @@
+                              @@@@@@    @@     @@   @@   @@     @@    @@     @@
+)";
+
+Console::white();
+		
+        cout << R"( 
 
                                 @@@@@@       @@@@@       @@   @@      @@   @@
                                 @@   @@     @@   @@      @@@  @@      @@  @@ 
@@ -85,12 +51,9 @@ Console::lightblue();
                                 @@   @@     @@   @@      @@  @@@      @@  @@ 
                                 @@@@@@      @@   @@      @@   @@      @@   @@
 
-
-
-
-
 )";
         std::this_thread::sleep_for(std::chrono::seconds(2));
+        Console::yellow();
 	}
 
 
@@ -261,8 +224,6 @@ Console::lightblue();
         FileManager::fetchAllData();
 
         Screens::welcome();
-
-        Screens::bankName();
 
         if (WelcomeScreen::start()) {
           loginScreen(loginAs());
