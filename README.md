@@ -87,12 +87,6 @@ Each user logs in using:
 ### Admin Dashboard
 ![Admin Dashboard](screenshots/admin-dashboard.png)
 
-### Client Dashboard
-![Client Dashboard](screenshots/client-dashboard.png)
-
-### Employee Dashboard
-![Employee Dashboard](screenshots/employee-dashboard.png)
-
 ### Client Management
 ![Client Management](screenshots/client-management.png)
 
@@ -102,23 +96,31 @@ Each user logs in using:
 ### Admin Management
 ![Admin Management](screenshots/admin-management.png)
 
-### My Account
-![My Account](screenshots/my-account.png)
+### Search
+![Search](screenshots/search.png)
+
+### Employee Dashboard
+![Employee Dashboard](screenshots/employee-dashboard.png)
+
+### Client Dashboard
+![Client Dashboard](screenshots/client-dashboard.png)
 
 ### Transactions
 ![Transactions](screenshots/transactions.png)
 
-### Search
-![Search](screenshots/search.png)
+### Transfer Money
+![Transfer Money](screenshots/transfer-money.png)
+
+### My Account
+![My Account](screenshots/my-account.png)
 
 ### Update Information
 ![Update Information](screenshots/update-information.png)
 
-### Transfer Money
-![Transfer Money](screenshots/transfer-money.png)
-
 ### Profile
 ![Profile](screenshots/profile.png)
+
+
 
 ## 🚀 Getting Started
 
